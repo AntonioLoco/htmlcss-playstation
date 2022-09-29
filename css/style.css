@@ -12,6 +12,8 @@ img{
 :root{
     /* Palette */
     --ms_dark-grey: #363636;
+    --ms-light-grey: #BEBCBB;
+    --ms-grey: #D9DADC;
     --ms-black: #1F1F1F;
     --ms-red: #CD3D0F;
 }
@@ -20,6 +22,10 @@ img{
 /* Background */
 .ms_bg-grey{
     background-color: var(--ms_dark-grey);
+}
+
+.ms_bg-light-grey{
+    background-color: var(--ms-light-grey);
 }
 
 .ms_bg-red{
@@ -33,6 +39,11 @@ img{
 /* Buttons */
 .ms_btn{
     border-radius: 20px;
+}
+
+.ms_bg-btn-grey{
+    background-color: var(--ms-grey);
+    color: blue;
 }
 
 /* HEADER */
@@ -89,6 +100,12 @@ img{
 /* Section Product PS4 */
 #ps4 .card{
     border: none
+}
+
+/* Section Ps Plus */
+#ps-plus-logo{
+    width: 60%;
+    margin-bottom: 1em;
 }
 
 
