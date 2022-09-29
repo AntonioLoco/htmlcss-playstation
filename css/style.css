@@ -55,6 +55,19 @@ img{
 }
 
 /* Section VideoGame */
-.ms_inner-box-active{
+.ms_videogame-list .col.ms_active .ms_inner-box{
     border: 2px solid blue;
 }
+
+/* Section Product ps5 */
+.ms_ps5-list .col{
+    opacity: .7;
+}
+
+.ms_ps5-list .col.ms_active{
+    opacity: 1;
+    border-bottom: 1px solid blue;
+}
+
+
+
