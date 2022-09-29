@@ -53,3 +53,8 @@ img{
     padding-top: 20em;
     padding-bottom: 1em;
 }
+
+/* Section VideoGame */
+.ms_inner-box-active{
+    border: 2px solid blue;
+}
