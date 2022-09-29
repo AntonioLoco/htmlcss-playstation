@@ -16,6 +16,7 @@ img{
     --ms-grey: #D9DADC;
     --ms-black: #1F1F1F;
     --ms-red: #CD3D0F;
+    --ms-dark-blue: #161C3B;
 }
 
 
@@ -34,6 +35,10 @@ img{
 
 .ms_bg-black{
     background-color: var(--ms-black);
+}
+
+.ms_bg-dark-blue{
+    background-color: var(--ms-dark-blue);
 }
 
 /* Buttons */
@@ -108,5 +113,10 @@ img{
     margin-bottom: 1em;
 }
 
+/* Section PS Now */
+#ps-now-logo{
+    width: 60%;
+    margin-bottom: 1em;
+}
 
 
