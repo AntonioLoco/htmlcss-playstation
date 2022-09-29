@@ -12,6 +12,7 @@ img{
 :root{
     /* Palette */
     --ms_dark-grey: #363636;
+    --ms-black: #1F1F1F;
     --ms-red: #CD3D0F;
 }
 
@@ -23,6 +24,10 @@ img{
 
 .ms_bg-red{
     background-color: var(--ms-red);
+}
+
+.ms_bg-black{
+    background-color: var(--ms-black);
 }
 
 /* Buttons */
