@@ -12,16 +12,44 @@ img{
 :root{
     /* Palette */
     --ms_dark-grey: #363636;
+    --ms-red: #CD3D0F;
+}
+
+
+/* Background */
+.ms_bg-grey{
+    background-color: var(--ms_dark-grey);
+}
+
+.ms_bg-red{
+    background-color: var(--ms-red);
 }
 
 /* Buttons */
-.ms_btn-accedi{
-    background-color: var(--ms_dark-grey);
-    color: white;
+.ms_btn{
     border-radius: 20px;
 }
 
 /* HEADER */
 .ms_header-top img{
     width: 100px;
+}
+
+/* MAIN */
+/* Jumbotron */
+#jumbotron{
+    margin-top: 7em;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+#jumbotron img{
+    width: 50%;
+}
+
+#jumbotron .container{
+    padding-top: 20em;
+    padding-bottom: 1em;
 }
