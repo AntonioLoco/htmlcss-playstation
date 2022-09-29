@@ -51,7 +51,7 @@ img{
 
 #jumbotron .container{
     padding-top: 20em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 /* Section VideoGame */
@@ -67,6 +67,18 @@ img{
 .ms_ps5-list .col.ms_active{
     opacity: 1;
     border-bottom: 1px solid blue;
+}
+
+/* Section It Takes Two */
+#it-takes-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+#it-takes-two img{
+    width: 60%;
 }
 
 
