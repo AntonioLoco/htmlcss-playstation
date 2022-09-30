@@ -168,6 +168,15 @@ ul.dropdown-menu{
     border: 2px solid blue;
 }
 
+.ms_videogame-list .col{
+    transition: margin-top 1s;
+}
+
+.ms_videogame-list .col:hover{
+    margin-top: 0;
+    transition: all 1s;
+}
+
 /* Section Product ps5 */
 .ms_ps5-list .col{
     opacity: .7;
