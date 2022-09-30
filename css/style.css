@@ -32,16 +32,8 @@ a{
 }
 
 /* Background */
-.ms_bg-grey{
-    background-color: var(--ms_dark-grey);
-}
-
 .ms_bg-light-grey{
     background-color: var(--ms-light-grey);
-}
-
-.ms_bg-red{
-    background-color: var(--ms-red);
 }
 
 .ms_bg-black{
@@ -59,12 +51,42 @@ a{
 /* Buttons */
 .ms_btn{
     border-radius: 20px;
+    position: relative;
 }
 
-.ms_bg-btn-grey{
-    background-color: var(--ms-grey);
-    color: blue;
+/* btn Hover */
+.ms_btn::after{
+    content: "";
+    display: none;
+    position: absolute;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    top: -3px;
+    left: -3px;
+    border-radius: 20px;
+    border: 1px solid;
 }
+
+.ms_btn:hover::after{
+    display: block;
+}
+
+#ms_btn-red.ms_btn::after{
+    border-color: var(--ms-red);
+}
+
+#ms_btn-dark.ms_btn::after{
+    border-color: var(--ms-black);
+}
+
+#ms_btn-blue.ms_btn::after{
+    border-color: var(--ms-blue);
+}
+
+#ms_btn-grey.ms_btn::after{
+    border-color: var(--ms-grey);
+}
+
 
 /* HEADER */
 .ms_header-top img{
@@ -147,7 +169,6 @@ ul.dropdown-menu{
     color: #0874D2;
 }
 
-
 /* MAIN */
 /* Jumbotron */
 #jumbotron{
@@ -175,6 +196,10 @@ ul.dropdown-menu{
 .ms_videogame-list .col:hover{
     margin-top: 0;
     transition: all 1s;
+}
+
+.ms_videogame-list .col:hover .ms_inner-box a{
+    color: inherit;
 }
 
 /* Section Product ps5 */
