@@ -31,6 +31,17 @@ a{
     --ms-blue: #00439C;
 }
 
+/* Padding */
+.ms_py-large{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.ms_py-small{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 /* Background */
 .ms_bg-light-grey{
     background-color: var(--ms-light-grey);
