@@ -243,6 +243,16 @@ ul.dropdown-menu{
     border: none
 }
 
+/* Section Social */
+#social .row .col img{
+    transform: scale(1);
+    transition: all .5s linear;
+}
+#social .row .col:hover img{
+    transform: scale(1.3);
+    transition: all .5s linear;
+}
+
 /* FOOTER */
 /* Footer top */
 .ms_logo-footer img{
@@ -256,6 +266,10 @@ ul.dropdown-menu{
 
 .ms_link-footer ul li{
     margin-bottom: .5em;
+}
+
+.ms_link-footer li:hover a{
+    color: var(--ms-light-grey);
 }
 
 /* Footer bottom */
