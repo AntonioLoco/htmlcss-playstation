@@ -122,6 +122,10 @@ ul.dropdown-menu{
     list-style-type: none;
 }
 
+.ms_dropdown-menu-top .dropdown-item{
+    border: 2px solid #ffff;
+}
+
 .ms_dropdown-menu-top .dropdown-item p{
     margin-bottom: 0;
 }
